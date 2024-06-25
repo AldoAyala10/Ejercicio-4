@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form{
+    margin-top: 20px;
+    width: 310px;
+    box-shadow: 0 0 20px gray;
+    padding: 30px;
+    border-radius: 7px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: rgb(240, 240, 234);
+    border: 0px;
+    border-radius: 5px;
+    outline-color: rgb(207, 171, 201);
+    width: 80%;
+}
+button{
+    margin-top: 20px;
+    padding: 7px;
+    background-color: rgb(171, 133, 173);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(221, 166, 235);
+}
+.correcto{
+    background-color: rgb(136, 235, 186);
+    border: 1px solid rgb(96, 121, 132);
+}
+.error{
+    background-color: rgb(236, 26, 89);
+    border: 1px solid red;
+}
+.circleCrossNombre, .circleCrossCelular, .circleCrossCorreo{
+    margin-left: 5px;
+    color: rgb(48, 1, 1);
+}
+.ocultar{
+    display: none;
+visibility: hidden;
+}
+.mensajeNombre, .mensajeCelular, .mensajeCorreo{
+    color: rgb(47, 14, 14);
+    font-size: small;
+}
+.circleCheckNombre, .circleCheckCelular, .circleCheckCorreo{
+    color: rgb(255, 154, 233);
+}
